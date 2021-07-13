@@ -6,7 +6,7 @@
   </p>
 </p>
 
-## About The Project
+## ℹ️ About The Project
 
 This is a fully-configured TypeScript project template, featuring...
 
@@ -17,17 +17,20 @@ This is a fully-configured TypeScript project template, featuring...
 - Pre-commit hooks with Husky, CommitLint, and LintStaged.
 - Pre-built GitHub issue templates and workflows.
 
-## Installation
+## ⚙️ Installation
 
-Click on "use this template" to create your repository.
+1. Click on "use this template" to create your repository.
+2. Use `git clone` to copy the new repository to your machine.
+3. Run `yarn install` to install all of the project dependencies.
 
-## Usage
+## 🧰 Usage
 
-1. Copy the template repository.
-2. Run `yarn install` to install all of the dependencies.
-3. Start your project in the `src` folder.
-4. Change this README.
+1. After installing dependencies, you can start coding in the `src` folder.
+2. Setup your unit tests in the `tests` folder, or remove it and uninstall Jest if you don't need it. Make sure to remove all Jest-related packages, including the ESLint plugin, if you won't need it.
+3. Change `README.md` and the `LICENSE` page as needed.
+4. You can use `yarn run lint:fix`, `yarn run format:fix`, and `yarn run test` to ensure your project is healthy.
+5. Ensure your commits meet Conventional Commit requirements, as enforced by Husky and CommitLint. If the hooks did not properly install, run `yarn husky install`.
 
-## License
+## 📜 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
