@@ -3,6 +3,7 @@
   "plugins": ["jest"],
   "rules": {
     "import/extensions": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "lines-between-class-members": ["error", "always", { "exceptAfterSingleLine": true }]
   }
 }
