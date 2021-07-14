@@ -13,7 +13,7 @@
     "test:coverage": "yarn run test --coverage",
     "build": "rm -rf ./build/ && tsc",
     "start:dev": "nodemon --config nodemon.json",
-    "start:prod": "yarn run build && node ./build/index.js",
+    "start:prod": "yarn run build && node ./build/src/index.js",
     "postinstall": "husky install"
   },
   "jest": {
